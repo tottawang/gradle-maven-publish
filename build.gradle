@@ -44,7 +44,7 @@ repositories {
 	maven { url "https://plugins.gradle.org/m2/" }
 }
 
-group = 'com.sample'
+group = 'com.wangto'
 version = '0.0.1-SNAPSHOT'
 
 jar {
@@ -60,9 +60,6 @@ publishing {
             from components.java
         }
     }
-}
-
-publishing {
     repositories {
         maven {	
             // change to point to your repo, e.g. http://my.org/repo
