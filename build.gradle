@@ -48,7 +48,7 @@ group = 'com.sample'
 version = '0.0.1-SNAPSHOT'
 
 jar {
-	baseName = "sample"
+	baseName = 'sample'
     version = project.version
 }
 
@@ -56,7 +56,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = project.group
-            artifactId = "sample"
+            artifactId = jar.baseName
             from components.java
         }
     }
